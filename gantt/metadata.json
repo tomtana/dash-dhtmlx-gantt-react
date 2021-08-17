@@ -1,0 +1,90 @@
+{
+  "src/lib/components/Gantt.react.js": {
+    "description": "",
+    "displayName": "GanttApp",
+    "methods": [
+      {
+        "name": "addMessage",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "message",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "logDataUpdate",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "type",
+            "type": null
+          },
+          {
+            "name": "action",
+            "type": null
+          },
+          {
+            "name": "item",
+            "type": null
+          },
+          {
+            "name": "id",
+            "type": null
+          }
+        ],
+        "returns": null
+      },
+      {
+        "name": "handleZoomChange",
+        "docblock": null,
+        "modifiers": [],
+        "params": [
+          {
+            "name": "zoom",
+            "type": null
+          }
+        ],
+        "returns": null
+      }
+    ],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks.",
+        "defaultValue": {
+          "value": "\"dash-dhtmlx-gantt\"",
+          "computed": false
+        }
+      },
+      "data": {
+        "type": {
+          "name": "shape",
+          "value": {
+            "data": {
+              "name": "array",
+              "required": false
+            },
+            "links": {
+              "name": "array",
+              "required": false
+            }
+          }
+        },
+        "required": false,
+        "description": "",
+        "defaultValue": {
+          "value": "{\n    data: [\n        { id: 1, text: 'Task #1', start_date: '2020-02-12', duration: 3, progress: 0.6 },\n        { id: 2, text: 'Task #2', start_date: '2020-02-16', duration: 3, progress: 0.4 }\n    ],\n    links: [\n        { id: 1, source: 1, target: 2, type: '0' }\n    ]\n}",
+          "computed": false
+        }
+      }
+    }
+  }
+}

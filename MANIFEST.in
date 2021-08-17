@@ -1,0 +1,11 @@
+include gantt/gantt.min.js
+include gantt/gantt.min.js.map
+include gantt/async-*.js
+include gantt/async-*.js.map
+include gantt/*-shared.js
+include gantt/*-shared.js.map
+include gantt/metadata.json
+include gantt/package-info.json
+include README.md
+include LICENSE
+include package.json
